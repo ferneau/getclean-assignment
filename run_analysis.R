@@ -41,4 +41,5 @@ results <- rename_device_headings(results)
 setwd("..")
 
 # save the summarized data frame as a CSV file
-write.csv(results,"subject-activity-stats.csv")
+# write.csv(results,"subject-activity-stats.csv")
+write.table(results,"subject-activity-stats.txt",row.name=FALSE)
