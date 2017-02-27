@@ -43,14 +43,5 @@ The run_analysis.R script performs the following steps:
 1. Combines the test and training data together into a single data frame
 1. Calls device_statistics.R to calculate the mean of all statistics per subjects per activity
 1. Calls rename_device_headings.R to tidy the column headings - replacing periods and multiple periods with a single underscore and remove any trailing punctuation.
-1. Write the resultant, tidy CSV file to subject-activity-stats.csv.
-
-
-
-
-Load
-Load 
-   retrieves the list of activities for the data files - in the format 
-
-
+1. Write the resultant, tidy TXT file to subject-activity-stats.txt.
 
